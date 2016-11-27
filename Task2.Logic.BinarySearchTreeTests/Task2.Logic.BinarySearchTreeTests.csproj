@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AF9191B-8491-484C-BA86-0C6E600C2493}</ProjectGuid>
+    <ProjectGuid>{652E8204-2F82-4E50-AD76-5220355308E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Task1.Logic.Matrix.Tests</RootNamespace>
-    <AssemblyName>Task1.Logic.Matrix.Tests</AssemblyName>
+    <RootNamespace>Task2.Logic.BinarySearchTreeTests</RootNamespace>
+    <AssemblyName>Task2.Logic.BinarySearchTreeTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,16 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MatrixAdderTests.cs" />
+    <Compile Include="BinarySearchTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Task1.Logic.Matrix\Task1.Logic.Matrix.csproj">
-      <Project>{5c231007-0d0f-4ac8-841a-1473259ed1c5}</Project>
-      <Name>Task1.Logic.Matrix</Name>
+    <ProjectReference Include="..\Task2.Logic.BinarySearchTree\Task2.Logic.BinarySearchTree.csproj">
+      <Project>{f48bcb96-7b5b-43fc-9d2c-10bcd6364309}</Project>
+      <Name>Task2.Logic.BinarySearchTree</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
